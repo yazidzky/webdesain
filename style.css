@@ -159,7 +159,7 @@ header h1 {
 }
 
 .pillar:hover {
-    transform: rotateY(180deg) scale(1.1);
+    transform: rotateY(0deg) scale(1.1);
 }
 
 .pillar i {
@@ -533,7 +533,7 @@ body {
 /* Specific styles for pillars section */
 .pillars .flip-card-back h3,
 .pillars .flip-card-back p {
-    transform: rotateY(180deg); /* Ensure text is upright in the pillars section */
+    transform: rotateY(0deg); /* Ensure text is upright in the pillars section */
 }
 
 .pillars .flip-card-back h3 {
