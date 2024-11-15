@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Emas 2045</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="splash-screen" >
+        <h1> Golden Age Indonesia 2045</h1>
+    </div>
+    <nav id="navbar">
+        <div class="logo"><img alt="Indonesian flag waving animation"  height="20" src="https://storage.googleapis.com/a1aa/image/9ifs4sZV9OzJWyGmu8lbyVu4rwceMmzoByc4gVB6gflNbTinA.jpg" width="40"/> Indonesia Emas 2045</div>
+        <div class="navbar-toggle" id="navbarToggle" onclick="toggleMenu()">☰</div>
+        <div class="navbar-menu" id="navbarMenu">
+            <ul class="menu-list">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#map">Peta</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#direction">Arah Pembangunan</a></li>
+                <li><a href="#targets">Sasaran Utama</a></li>
+                <li><a href="#cta">Dukung</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main-content" >
+        <div id="landing-page" >
+            <section id="hero" class="hero">
+                <div class="clouds"></div>
+                <h2>Visi Masa Depan Indonesia</h2>
+            </section>
+            <section id="about" class="about">
+                <h2>Tentang Indonesia Emas 2045</h2>
+                <p>Indonesia Emas 2045 adalah visi untuk menjadikan Indonesia sebagai negara maju pada 100 tahun kemerdekaannya. Dengan fokus pada ekonomi, teknologi, pendidikan, dan budaya, kita berusaha mencapai kemajuan yang berkelanjutan dan inklusif.</p>
+                <div class="pillars">
+                    <div class="pillar">
+                      <div class="flip-card" onclick="toggleFlip(this)">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Ekonomi</h3>
+                            <p>Meningkatkan pertumbuhan ekonomi yang berkelanjutan dan inklusif.</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h3>Ekonomi - Detail</h3>
+                            <p>Fokus pada kebijakan yang mendukung ekonomi digital dan UMKM.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pillar">
+                      <div class="flip-card" onclick="toggleFlip(this)">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Teknologi</h3>
+                            <p>Mendorong inovasi dan adopsi teknologi canggih.</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h3>Teknologi - Detail</h3>
+                            <p>Peningkatan infrastruktur teknologi dan kecerdasan buatan.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pillar">
+                      <div class="flip-card" onclick="toggleFlip(this)">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Pendidikan</h3>
+                            <p>Meningkatkan kualitas pendidikan untuk semua.</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h3>Pendidikan - Detail</h3>
+                            <p>Peningkatan akses pendidikan melalui teknologi dan pengajaran berbasis kompetensi.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pillar">
+                      <div class="flip-card" onclick="toggleFlip(this)">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <i class="fas fa-palette"></i>
+                            <h3>Budaya</h3>
+                            <p>Melestarikan dan mempromosikan kekayaan budaya Indonesia.</p>
+                          </div>
+                          <div class="flip-card-back">
+                            <h3>Budaya - Detail</h3>
+                            <p>Pengembangan pariwisata berbasis budaya dan pelestarian warisan budaya.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </section>
+            <section id="map" class="map">
+            </section>
+            <section id="timeline" class="timeline">
+                <h2>Timeline Perjalanan</h2>
+                <div class="events">
+                    <div class="event">
+                        <h3>1945</h3>
+                        <p>Proklamasi Kemerdekaan Indonesia.</p>
+                    </div>
+                    <div class="event">
+                        <h3>1965</h3>
+                        <p>Gerakan 30 September dan perubahan politik besar.</p>
+                    </div>
+                    <div class="event">
+                        <h3>1998</h3>
+                        <p>Reformasi dan jatuhnya rezim Orde Baru.</p>
+                    </div>
+                    <div class="event">
+                        <h3>2020</h3>
+                        <p>Pandemi COVID-19 dan upaya pemulihan ekonomi.</p>
+                    </div>
+                    <div class="event">
+                        <h3>2045</h3>
+                        <p>Indonesia Emas: Menjadi negara maju dan sejahtera.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="direction" class="direction">
+                <h2>Arah Pembangunan RPJPN 2025-2045</h2>
+                <p>RPJPN 2025-2045 bertujuan untuk mencapai pembangunan yang berkelanjutan dan inklusif dengan fokus pada beberapa sasaran utama:</p>
+            </section>
+            <section id="targets" class="direction">
+                <h2>Sasaran Utama RPJPN 2025-2045</h2>
+                <div class="targets">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Pendidikan</h3>
+                        <p>Peningkatan kualitas sumber daya manusia melalui pendidikan dan kesehatan.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Pendidikan - Detail</h3>
+                        <p>Fokus pada pendidikan berbasis teknologi dan penguatan kompetensi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Inovasi</h3>
+                        <p>Peningkatan daya saing ekonomi melalui inovasi dan teknologi.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Inovasi - Detail</h3>
+                        <p>Mendorong investasi riset dan pengembangan teknologi terbaru.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-road"></i>
+                        <h3>Infrastruktur</h3>
+                        <p>Pembangunan infrastruktur yang merata dan berkelanjutan.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Infrastruktur - Detail</h3>
+                        <p>Peningkatan konektivitas antarwilayah dengan teknologi ramah lingkungan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>Tata Kelola</h3>
+                        <p>Penguatan tata kelola pemerintahan yang baik dan bersih.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Tata Kelola - Detail</h3>
+                        <p>Implementasi teknologi dalam transparansi dan akuntabilitas publik.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <i class="fas fa-culture"></i>
+                        <h3>Budaya</h3>
+                        <p>Pelestarian dan pengembangan budaya serta kearifan lokal.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Budaya - Detail</h3>
+                        <p>Pengembangan pariwisata berbasis budaya dan pelestarian warisan budaya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            </section>
+            <section id="cta" class="cta">
+                <header>
+                    <div class="flag"></div>
+                    <h1>Menuju Indonesia Emas 2045</h1>
+                </header>
+            </section>
+        </div>
+    </div>
+
+    
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
