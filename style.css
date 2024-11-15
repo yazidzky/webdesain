@@ -175,7 +175,7 @@ header h1 {
 .map {
     position: relative;
     height: 600px; /* Anda bisa menggunakan vh untuk membuat tinggi lebih fleksibel */
-    background: url('assets/Gold\ map\ of\ Indonesia.png') no-repeat center center fixed;
+    background: url('assets/Gold\ map\ of\ Indonesia.png') no-repeat center center;
     background-size: cover;
 }
 
